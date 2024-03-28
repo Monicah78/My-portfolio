@@ -1,0 +1,17 @@
+.expertise {
+    text-align: right;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.expertise h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.expertise p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}

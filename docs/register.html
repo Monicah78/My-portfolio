@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard form</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" type = "text/css" href="">
+    <script type="text/javascript">
+        function validation () {
+            swal("Thank you for your submission")
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Contact Form</h1>
+            <div class="input control">
+                <label for="name">Full Name</label>
+                <input id="name" name="Full name" type="text" required>
+                <div class="error"></div>
+            </div>
+            <div class="input control">
+                <label for="name">Email</label>
+                <input id="email" name="email" type="text" required>
+                <div class="error"></div>
+            </div>
+            <div class="input control">
+                <label for="name">Password</label>
+                <input id="password" name="password" type="password" required>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+    <script refer src="register.js"></script>
+</body>
+</html>

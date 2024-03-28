@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    background-color: black;
+ }
+ 
+ nav,.nav-links {
+     display: flex; 
+     
+  }
+ 
+ nav {
+     justify-content:space-around;
+     align-items: center;
+     height: 17vh;
+     color: blue;
+     
+ } 
+ 
+ .nav-links {
+     gap:2rem;
+     list-style: none;
+     font-size: 1.5rem;
+     color: white;
+ }
+ 
+ 
+ a  {
+     color:ack;
+     text-decoration: none;
+     text-decoration-color: black;
+ }
+ 
+ 
+ a:hover {
+   color: white;
+   text-decoration: underline;
+   text-underline-offset: 1rem;
+ }
+ 
+ .logo{
+  margin: left;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: white;
+ }
+
+ .paragraph{
+    color: white;
+    text-align: center;
+    padding: 200px;
+ }
+
+ /* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: white;
+    color: white;
+    text-align: center;
+  } */
+
+  .social-links {
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
+    font-size: 24px; /* Adjust icon size */
+    color: white; /* Icon color */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+footer{
+    text-align: right;
+    color: white;
+    padding: 4rem;
+}
+ 
+ 
+ 
+ 
